@@ -131,7 +131,7 @@ write_basic_package_version_file(
     COMPATIBILITY AnyNewerVersion
 )
 
-configure_package_config_file(${CMAKE_CURRENT_LIST_DIR}/cmake/BaseClassesConfig.cmake.in
+configure_package_config_file(${CMAKE_CURRENT_LIST_DIR}/../cmake/BaseClassesConfig.cmake.in
     ${CMAKE_CURRENT_BINARY_DIR}/BaseClassesConfig.cmake
     INSTALL_DESTINATION ${INSTALL_CONFIGDIR}
 )
